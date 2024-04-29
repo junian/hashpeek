@@ -1,4 +1,4 @@
-# ScanApp
+# HashPeek
 
 Console .NET Core app to scan all files in a specific folder
 - [x] Accept folder path as an argument
@@ -18,5 +18,5 @@ Optional features
 
 
 Example of usage:   
-- Windows: ScanApp C:\Program Files (x86)
-- Linux: ScanApp /etc
+- Windows: `hashpeek C:\Program Files (x86)`
+- Linux: `hashpeek ~/Documents`
