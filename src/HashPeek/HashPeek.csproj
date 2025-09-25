@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
         
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>hashpeek</ToolCommandName>
@@ -14,7 +14,7 @@
     <Title>hashpeek</Title>
     <Description>Recursively calculate or verify file / directory hash.</Description>
     <Summary>Recursively calculate or verify file / directory hash.</Summary>
-    <Copyright>Copyright (c) 2022 - 2024</Copyright>
+    <Copyright>Copyright (c) 2022 - 2025</Copyright>
     <RepositoryUrl>https://github.com/junian/hashpeek</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     
@@ -25,7 +25,7 @@
     <Version>$(AssemblyVersion)</Version>
     
     <PackageId>hashpeek</PackageId>
-    <PackageProjectUrl>https://www.juniansoft.com/hashpeek/</PackageProjectUrl>
+    <PackageProjectUrl>https://www.junian.dev/hashpeek/</PackageProjectUrl>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageTags>hash,md5,sha1,sha256,sha512,checksum</PackageTags>
@@ -52,3 +52,4 @@
   </ItemGroup>
 
 </Project>
+
