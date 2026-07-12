@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace ScanApp.Models
+namespace HashPeek.Models
 {
     public class FileScannerReport
     {

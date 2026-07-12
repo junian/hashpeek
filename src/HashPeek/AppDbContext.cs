@@ -4,7 +4,7 @@ using System.IO;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 
-namespace ScanApp
+namespace HashPeek
 {
     public class AppDbContext : DbContext
     {
@@ -14,7 +14,7 @@ namespace ScanApp
 
         public AppDbContext()
         {
-            var path = Path.GetDirectoryName(new Uri(Assembly.GetExecutingAssembly().CodeBase).LocalPath);
+            var path = Path.GetDirectoryName(new Uri(Assembly.GetExecutingAssembly().Location).LocalPath);
             DbPath = System.IO.Path.Join(path, "scanapp.db");
         }
 

@@ -1,5 +1,4 @@
-﻿using System;
-namespace ScanApp.Models
+﻿namespace HashPeek.Models
 {
     public class FileHash
     {

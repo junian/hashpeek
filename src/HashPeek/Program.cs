@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using Serilog;
 
-namespace ScanApp
+namespace HashPeek
 {
     class Program
     {
